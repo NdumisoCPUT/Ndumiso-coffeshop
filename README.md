@@ -1,83 +1,54 @@
+# Ndumiso's Coffee Shop
 
-# X-Wave POE Marketplace
+Welcome to **Ndumiso's Coffee Shop**! This project represents the digital presence of a cozy and inviting coffee shop where you can explore various coffee types, learn about our story, and connect with us.
 
-## Description
+![Ndumiso's Coffee Shop Logo](path_to_your_logo.png)
 
-This project is a decentralized marketplace built on the Celo blockchain, allowing users to list and purchase products using cUSD. The marketplace leverages smart contracts for secure and transparent transactions.
+## Table of Contents
+
+- [About Us](#about-us)
+- [Our Coffees](#our-coffees)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About Us
+
+At **Ndumiso's Coffee Shop**, we are passionate about coffee. From the rich aroma of freshly ground beans to the comforting warmth of a perfect brew, our mission is to bring the finest coffee experience to our customers. Whether you're here to enjoy a quiet moment alone or catch up with friends, we have the perfect cup for you.
+
+## Our Coffees
+
+Explore our selection of delicious coffee types:
+
+- **Espresso**: Strong and bold, the foundation of many coffee drinks.
+- **Latte**: Creamy and smooth, perfect for a relaxing break.
+- **Cappuccino**: Rich and frothy, a delightful morning treat.
+- **Mocha**: Sweet and indulgent, a chocolate lover's dream.
+- **Macchiato**: Bold espresso with a touch of steamed milk.
+- **Flat White**: Balanced and flavorful, a favorite from down under.
+- **Cortado**: Smooth and intense, the perfect balance of coffee and milk.
+- **Affogato**: A delightful combination of espresso and ice cream.
+- **Irish Coffee**: A spirited mix of coffee, whiskey, and cream.
+- **Turkish Coffee**: Rich and aromatic, a traditional favorite.
+- **Ristretto**: A concentrated shot of bold flavor.
+- **Doppio**: Double the espresso, double the pleasure.
 
 ## Features
 
-- Connect to a Celo wallet.
-- Display user balance in cUSD.
-- List all available products.
-- Add new products to the marketplace.
-- Purchase products using cUSD.
+- **Browse Coffees**: Discover a variety of coffee types and their descriptions.
+- **Learn About Us**: Read our story and find out what makes Ndumiso's Coffee Shop special.
+- **Contact**: Get in touch with us for any inquiries or feedback.
+- **Modern Design**: Enjoy a visually appealing and user-friendly interface.
 
 ## Installation
 
-To get started with this project, follow these steps:
+To run this project locally, follow these steps:
 
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourgithubusername/celo-boilerplate-web-dapp.git
-   cd celo-boilerplate-web-dapp
-   ```
-
-2. **Pick your poison**
-
-   ```bash
-   npm install
-   ```
     ```bash
    yarn install
    ```
-
-3. **Run the Development Server**
-
-    ```bash
-   npm start
-   ```
-     ```bash
-   yarn start
-   ```
    This will run the development server at `http://localhost:9000`.
 
-
-## Usage
-
-After starting the development server, navigate to `http://localhost:9000` in your web browser. Ensure that your Celo wallet extension is installed and set up.
-
-- Click on **Connect Celo Wallet** to connect your wallet to the DApp.
-- Once connected, your balance will be displayed, and you can interact with the marketplace.
-
-## Contract Interaction
-
-The project uses a smart contract deployed on the Celo network at the address `0x7E0efb852B65d4bD3856fdC250fed80523eDC329`. The smart contract allows for listing and purchasing products.
-
-### Adding a Product
-
-- Fill in the product details in the **Add Product** modal and submit.
-- The product will be listed in the marketplace upon successful transaction confirmation.
-
-### Purchasing a Product
-
-- Click on the **Buy** button for the desired product.
-- Approve the transaction from your Celo wallet.
-- Upon successful purchase, the product will be marked as sold.
-
-## Troubleshooting
-
-If you encounter any issues with the DApp, check the following:
-
-- Ensure that the Celo wallet extension is active and properly configured.
-- Check the browser console for errors related to network connections or transactions.
-- Ensure that the smart contract address and ABI are correctly configured in your project.
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your features or fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
